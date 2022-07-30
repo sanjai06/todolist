@@ -25,6 +25,9 @@ function App() {
       <div className="heading">
         <h1>To-Do List</h1>
       </div>
+      <div className="heading__para">
+      <h6 >Click on the task to delete It</h6>
+      </div>
       <InputArea onAdd={addItem} />
       <div>
         <ul>
@@ -38,7 +41,9 @@ function App() {
           ))}
         </ul>
       </div>
+      
     </div>
+   
   );
 }
 

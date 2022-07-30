@@ -3,8 +3,8 @@ import React, { useState } from "react";
 function InputArea(props) {
   const [inputText, setInputText] = useState("");
 
-  function handleChange(event) {
-    const newValue = event.target.value;
+  function handleChange(e) {
+    const newValue = e.target.value;
     setInputText(newValue);
   }
 
